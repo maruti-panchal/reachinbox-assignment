@@ -1,0 +1,26 @@
+/* src/Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px; /* Ensure the header does not exceed 1440px width */
+    height: 64px;
+    padding: 10px 100px;
+    gap: 0px;
+    /* border-bottom: 1px solid white; */ /* Removed the border line */
+    background-color: #111212; /* Background color */
+    opacity: 1; /* Setting opacity to 1 to make it fully visible */
+    margin: auto; /* Center the header horizontally */
+  }
+  
+  .logo.img{
+    margin-left: 85vh;
+  }
+
+  .brand-name {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
